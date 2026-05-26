@@ -24,10 +24,13 @@ public class LinkText {
 		driver.navigate().back();
 		
 		// By partial link text
+		
+		// findelement - return a single web element
 		driver.findElement(By.partialLinkText("Today's Dea")).click();
 		
 		// Capture all the links
 		
+		// findelements - returns a list of webelement 
 		List<WebElement> elements = driver.findElements(By.tagName("a"));
 		
 		// Using for loop
