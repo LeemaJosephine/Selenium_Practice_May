@@ -39,6 +39,7 @@ public class XPath {
 		
 		// Relation based xpath - Parent to child
 		
+		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).clear();
 		driver.findElement(By.xpath("//div[@class='nav-search-field ']/input")).sendKeys("dress",Keys.ENTER);
 		
 		
