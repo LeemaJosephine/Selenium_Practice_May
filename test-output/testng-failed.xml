@@ -9,7 +9,8 @@
         <methods>
           <include name="setup_browsedr"/>
           <include name="close_browser"/>
-          <include name="login_Test"/>
+          <include name="setup_Test"/>
+          <include name="login_Test" invocation-numbers="0"/>
         </methods>
       </class> <!-- day23.TC001_LoginTest_Valid -->
     </classes>
